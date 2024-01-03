@@ -1,0 +1,4 @@
+database:
+  url: "mysql://myuser:mypassword@mysql-server:3306/mydatabase"
+apiKey: "my-api-key"
+logLevel: "debug"
