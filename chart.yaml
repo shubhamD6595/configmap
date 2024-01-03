@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}-configmap
+data:
+  DATABASE_URL: {{ .Values.database.url }}
+  API_KEY: {{ .Values.apiKey }}
+  LOG_LEVEL: {{ .Values.logLevel }}
